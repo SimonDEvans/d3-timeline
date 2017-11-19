@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.9.0/css/patternfly.min.css" />
@@ -10,7 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <title>d3 timeline</title>
 </head>
-
 <body>
     <div class="container">
         <div class="row toolbar-pf">
@@ -22,9 +20,9 @@
                     <div class="form-group">
                         <div class="dropdown pull-left">
                             <button class="btn btn-default dropdown-toggle" id="range-dropdown" data-toggle="dropdown" type="button">
-                <span data-bind="label">1 week</span>&nbsp;
-                <span class="caret"></span>
-              </button>
+                                <span data-bind="label">1 week</span>&nbsp;
+                                <span class="caret"></span>
+                            </button>
                             <ul class="dropdown-menu zoom-filter" role="menu" aria-labelledby="dropdownMenu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">1 hour</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">1 day</a></li>
@@ -39,9 +37,9 @@
                         </div>
                         <div class="dropdown pull-left">
                             <button class="btn btn-default dropdown-toggle" id="position-dropdown" data-toggle="dropdown" type="button">
-                <span data-bind="label">ending</span>&nbsp;
-                <span class="caret"></span>
-              </button>
+                                <span data-bind="label">ending</span>&nbsp;
+                                <span class="caret"></span>
+                            </button>
                             <ul class="dropdown-menu zoom-filter" role="menu" aria-labelledby="dropdownMenu2">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">centered on</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#">starting</a></li>
@@ -49,7 +47,10 @@
                             </ul>
                         </div>
                         <div class="input-group date" id="datepicker">
-                            <input type="text" class="form-control bootstrap-datepicker"><span class="input-group-addon"><span class="fa fa-calendar"></span></span>
+                            <input type="text" class="form-control bootstrap-datepicker">
+                            <span class="input-group-addon">
+                                <span class="fa fa-calendar"></span>
+                            </span>
                         </div>
                     </div>
                     <div class="form-group">
