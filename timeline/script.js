@@ -154,6 +154,26 @@ function zoomFilter() {
         case '1 month':
             range = ONE_MONTH;
             break;
+
+        case '6 months':
+            range = SIX_MONTHS;
+            break;
+
+        case '1 year':
+            range = ONE_YEAR;
+            break;
+
+        case '5 years':
+            range = FIVE_YEARS;
+            break;
+
+        case '10 years':
+            range = TEN_YEARS;
+            break;
+
+        case '20 years':
+            range = TWENTY_YEARS;
+            break;
     }
     switch (position) {
         case 'centered on':
