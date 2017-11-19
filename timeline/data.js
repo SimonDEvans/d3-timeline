@@ -1,15 +1,56 @@
 var json = [
   {
+    "name":"Deaths",
+    "data":[
+      {"date": "1986-02-05T00:00:00"},
+      {"date": "1986-04-05T00:00:00"},
+      {"date": "1986-06-05T00:00:00"},
+      {"date": "1986-07-05T00:00:00"},
+      {"date": "1986-08-05T00:00:00"},
+      {"date": "1987-04-05T00:00:00"},
+      {"date": "1988-04-05T00:00:00"},
+      {"date": "1989-03-05T00:00:00"},
+      {"date": "1989-04-05T00:00:00"},
+      {"date": "1989-07-05T00:00:00"},
+      {"date": "1989-09-05T00:00:00"},
+      {"date": "1989-11-05T00:00:00"},
+      {"date": "1989-12-05T00:00:00"},
+      {"date": "1990-04-05T00:00:00"},
+      {"date": "1991-04-30T00:00:00"},
+      {"date": "1992-01-30T00:00:00"},
+      {"date": "1992-02-30T00:00:00"},
+      {"date": "1992-03-30T00:00:00"},
+      {"date": "1992-04-30T00:00:00"},
+      {"date": "1992-05-30T00:00:00"},
+      {"date": "1992-06-30T00:00:00"},
+      {"date": "1992-07-30T00:00:00"},
+      {"date": "1993-04-30T00:00:00"},
+      {"date": "1994-02-30T00:00:00"},
+      {"date": "1994-03-30T00:00:00"},
+      {"date": "1994-04-30T00:00:00"},
+      {"date": "1994-05-30T00:00:00"},
+      {"date": "1994-06-30T00:00:00"},
+      {"date": "1995-04-30T00:00:00"},
+      {"date": "1996-04-30T00:00:00"},
+      {"date": "1997-04-30T00:00:00"},
+      {"date": "1998-01-30T00:00:00"},
+      {"date": "1998-02-30T00:00:00"},
+      {"date": "1998-03-30T00:00:00"},
+      {"date": "1998-07-30T00:00:00"},
+      {"date": "1999-04-30T00:00:00"}
+    ]
+  },
+  {
     "name":"Clinical Investigations",
     "data":[
-      {"date": "1985-04-05T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet","customfield": "custom text", "image": "<img src='http://placehold.it/50x50'>"}},
-      {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
+      {"date": "1986-04-05T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet","customfield": "custom text", "image": "<img src='http://placehold.it/50x50'>"}},
+      {"date": "1990-04-30T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1990-04-30T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1990-04-30T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1990-04-30T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1990-04-30T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1990-04-30T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1990-04-30T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
     ]
   },
   {
@@ -73,35 +114,35 @@ var json = [
     "name":"Hospital",
     "data":[
       {"date": "1987-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1991-04-13T00:40:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1999-04-12T00:10:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
+      {"date": "1991-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1999-04-12T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
     ]
   },
   {
     "name":"Independent Panel",
     "data":[
       {"date": "1989-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1993-04-13T00:40:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1996-04-13T00:40:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1998-04-12T00:10:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
+      {"date": "1993-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1996-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1998-04-12T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
     ]
   },
   {
     "name":"News",
     "data":[
       {"date": "1987-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1990-04-13T00:40:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1994-04-12T00:10:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
+      {"date": "1990-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1994-04-12T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
     ]
   },
   {
     "name":"Police Investigations",
     "data":[
       {"date": "1987-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1989-04-13T00:40:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1988-04-13T00:40:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1993-04-13T00:40:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1999-04-12T00:10:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
+      {"date": "1989-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1988-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1993-04-13T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1999-04-12T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}}
     ]
   }
 ]
