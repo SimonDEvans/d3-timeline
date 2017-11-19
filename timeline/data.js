@@ -2,8 +2,7 @@ var json = [
   {
     "name":"Clinical Investigations",
     "data":[
-      {"date": "1985-04-08T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
-      {"date": "1985-04-05T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
+      {"date": "1985-04-05T00:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet","customfield": "custom text", "image": "<img src='http://placehold.it/50x50'>"}},
       {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
       {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},
       {"date": "1990-04-30T20:00:00", "details": {"event": "Lorem ipsum", "object": "Dolor sit amet"}},

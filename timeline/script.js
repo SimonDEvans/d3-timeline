@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('[data-toggle="popover"]').popover({
         'container': '#pf-timeline',
-        'placement': 'top'
+        'placement': 'bottom'
     });
 });
 
@@ -49,7 +49,7 @@ var timeline = d3.chart.timeline()
     .eventClick(function(el) {
         var table = '<table class="table table-striped table-bordered">';
         if (el.hasOwnProperty("events")) {
-            table = table + '<thead>This is a group of ' + el.events.length + ' events starting on ' + el.date + '</thead><tbody>';
+            table = table + '<thead>Group of ' + el.events.length + ' events starting on ' + el.date + '</thead><tbody>';
             table = table + '<tr><th>Date</th><th>Event</th><th>Object</th></tr>';
             for (var i = 0; i < el.events.length; i++) {
                 table = table + '<tr><td>' + el.events[i].date + ' </td> ';
