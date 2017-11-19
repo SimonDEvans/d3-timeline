@@ -13,7 +13,7 @@ $(document).on('click', '.grid', function() {
     $('[data-toggle="popover"]').popover('hide');
 });
 
-const ONE_HOUR = 60 * 60 * 1000,
+var ONE_HOUR = 60 * 60 * 1000,
     ONE_DAY = 24 * ONE_HOUR,
     ONE_WEEK = 7 * ONE_DAY,
     ONE_MONTH = 30 * ONE_DAY,
@@ -24,7 +24,7 @@ const ONE_HOUR = 60 * 60 * 1000,
     TWENTY_YEARS = 20 * ONE_YEAR;
 
 var data = [],
-    start = new Date('1980-04-02T20:14:22.691Z'),
+    start = new Date('1984-04-02T20:14:22.691Z'),
     today = new Date('2000-05-02T17:59:06.134Z');
 
 for (var x in json) { //json lives in external file for testing
@@ -43,9 +43,9 @@ $('#timeline-selectpicker').selectpicker('selectAll');
 
 var timeline = d3.chart.timeline()
     .end(today)
-    .start(today - start)
+    .start(start)
     .minScale(TWENTY_YEARS / TEN_YEARS)
-    .maxScale(TWENTY_YEARS / FIVE_YEARS)
+    .maxScale(TWENTY_YEARS / ONE_WEEK)
     .eventClick(function(el) {
         var table = '<table class="table table-striped table-bordered">';
         if (el.hasOwnProperty("events")) {
