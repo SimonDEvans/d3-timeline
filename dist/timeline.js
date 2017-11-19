@@ -26,7 +26,7 @@ var ONE_HOUR = 60 * 60 * 1000,
     TWENTY_YEARS = 20 * ONE_YEAR;
 
 var data = [],
-    start = new Date('1984-04-02T20:14:22.691Z'),
+    start = new Date('1985-02-01T20:14:22.691Z'),
     today = new Date('2000-05-02T17:59:06.134Z');
 
 for (var x in json) { //json lives in external file for testing
