@@ -29,3 +29,8 @@ body {
 .timeline-pf-brush .extent {
     fill: #973bb1;
 }
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}

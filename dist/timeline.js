@@ -26,8 +26,8 @@ var ONE_HOUR = 60 * 60 * 1000,
     TWENTY_YEARS = 20 * ONE_YEAR;
 
 var data = [],
-    start = new Date('1985-02-01T20:14:22.691Z'),
-    today = new Date('2000-05-02T17:59:06.134Z');
+    start = new Date('1985-02-01T00:00:00'),
+    today = new Date('2000-05-02T00:00:00');
 
 for (var x in json) { //json lives in external file for testing
     data[x] = {};
@@ -41,6 +41,7 @@ for (var x in json) { //json lives in external file for testing
     $('#timeline-selectpicker').append("<option>" + data[x].name + "</option>");
     data[x].display = true;
 }
+
 $('#timeline-selectpicker').selectpicker('selectAll');
 
 var timeline = d3.chart.timeline()
@@ -68,7 +69,6 @@ var timeline = d3.chart.timeline()
             }
         }
         $('#legend').html(table);
-
     });
 if (countNames(data) <= 0) {
     timeline.labelWidth(60);
@@ -99,7 +99,6 @@ $(window).on('resize', function() {
         'placement': 'top'
     });
 });
-
 
 $('#datepicker').datepicker({
     autoclose: true,
